@@ -26,11 +26,8 @@ class Predator(Animal):
 class Flower(Plant):
     pass
 class Fruit(Plant):
-    #edible = True
-    def __init__(self, name):
-        super().__init__(name)
-        self.edible = True
-
+    edible = True
+    
 
 a1 = Predator('Волк с Уолл-Стрит')
 a2 = Mammal('Хатико')
